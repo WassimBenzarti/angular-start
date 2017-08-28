@@ -1,0 +1,42 @@
+:host{
+    position:absolute;
+    top:50%;right:100%;
+    background:#555;
+    color:white;
+    padding:5px;
+    border-radius: 2px;
+    transform: translate(-10px,-50%);
+    pointer-events: none;
+    opacity:0;
+    transition: opacity .2s, left .2s, top .2s;
+}
+
+:host:before{
+    content:'';
+    position: absolute;
+    left:100%;
+    top:50%;
+    transform: translate(0,-50%);
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #555;
+    z-index:0
+}
+:host([down]){
+    top:auto;
+    right:auto;
+    left:50%;
+    bottom:100%;
+    transform: translate(-50%,-10px);
+}
+:host([down]):before{
+    top:100%;
+    left:50%;
+    transform: translate(-50%,0);
+    border:none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #555;
+}

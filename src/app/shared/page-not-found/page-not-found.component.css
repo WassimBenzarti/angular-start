@@ -1,0 +1,40 @@
+:host{
+    text-align: center;
+
+}
+.error{
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+
+    color:lightgrey;
+    text-transform: uppercase;
+
+}
+.error >h1{
+    margin: 0;
+    letter-spacing: 3px;
+    font-size:80px;
+    font-weight:100;
+}
+.sub-error,.btn{
+    font-size:20px;
+    letter-spacing: 10px;
+    font-weight:400;
+    margin:0;
+}
+
+.btn{
+    background:none;
+    font-size:15px;
+    letter-spacing: 1px;
+    border:solid 2px lightgrey;
+    color:lightgrey;
+    display:block;
+    padding:10px 16px 10px 20px;
+    margin:10px auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

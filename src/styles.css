@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+*{outline:none;}
+hr{
+    border:solid 1px #000;
+    width:50%;
+}
+body{
+    display: block;
+    padding:0; margin:0;
+    position:absolute;
+    width:100%;
+    height:100%;
+    min-height: 100%;
+}
+label{
+    font-weight:400;
+}
+pre{background:none;border:none;}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+.gradient{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ae57bf+0,e04343+100 */
+    background: #ae57bf; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FlNTdiZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMDQzNDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #ae57bf 0%, #e04343 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ae57bf), color-stop(100%,#e04343)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(left,  #ae57bf 0%,#e04343 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(left,  #ae57bf 0%,#e04343 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(left,  #ae57bf 0%,#e04343 100%); /* IE10 preview */
+    background: linear-gradient(to right,  #ae57bf 0%,#e04343 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae57bf', endColorstr='#e04343',GradientType=1 ); /* IE6-8 */
+}
+.polygon-shape{
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}

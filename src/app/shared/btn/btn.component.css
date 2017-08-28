@@ -1,0 +1,17 @@
+:host{
+    display:inline-block;
+    background:white;
+    border-radius: 5px;
+    margin:10px auto;
+    overflow: hidden;
+    transition: box-shadow .3s;
+}
+:host:hover{
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+button{
+    border:none;
+    padding:10px 20px;
+    display:block;
+    background: none;
+}

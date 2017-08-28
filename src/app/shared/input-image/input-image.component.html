@@ -1,0 +1,4 @@
+<label class="label">
+    <input type="file" class="input" (change)="uploadFile($event)">
+    <span #preview class="preview" [style.background]="getUrl()" alt="Your image"></span>
+</label>

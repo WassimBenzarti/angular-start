@@ -1,0 +1,13 @@
+
+<ul class="fadeup-anim">
+    <li *ngFor="let item of list;let i = index;trackBy: trackByFn"
+        class="ripple faderight-anim"
+        [style.animation-delay.s]=".2 * i">
+        <span class="micon">{{item?.icon}}</span>
+        <a [style.width.px]="size"
+           (mousedown)="open(item,$event)"
+           class="title">{{item.label}}</a>
+        <span *ngIf="item?.path" class="micon md-18"
+            [attr.title]="item?.path">open_in_new</span>
+    </li>
+</ul>

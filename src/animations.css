@@ -1,0 +1,28 @@
+@keyframes FadeUp {
+    0%{
+        opacity:0;
+        transform: translateY(10px);
+    }
+}
+@keyframes FadeDown {
+    from{
+        opacity:0;
+        transform: translateY(-10px);
+    }
+}
+@keyframes FadeLeft {
+    from{
+        opacity:0;
+        transform: translateX(20px);
+    }
+}
+@keyframes FadeRight {
+    from{
+        opacity:0;
+        transform: translateX(-20px);
+    }
+}
+.fadeup-anim{animation:FadeUp .3s}
+.fadedown-anim{animation:FadeDown .3s}
+.fadeleft-anim{animation:FadeLeft .4s cubic-bezier(.2,0,.2,1) backwards}
+.faderight-anim{animation:FadeRight .4s cubic-bezier(.4,0,.6,1) backwards}
